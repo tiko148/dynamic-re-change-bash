@@ -23,3 +23,10 @@ for file in $files; do
   echo "Replaced $original_kwrd with $new_kwrd in file:$file "
 
 done
+
+
+#Example
+
+# chmod +x run_bash.sh
+
+# run_bash.sh "old_kword_to_replace" "new_keyword_to_substitute"
